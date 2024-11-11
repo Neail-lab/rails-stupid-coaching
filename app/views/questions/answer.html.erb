@@ -1,0 +1,12 @@
+<div class="d-flex justify-content-center m-3 border">
+  <h1>You -- "<%= @question %>"</h1>
+</div>
+<div class="d-flex justify-content-center m-3 border">
+  <h2>Coach -- " <%= @response %>"</h2>
+</div >
+<div class="d-flex justify-content-center m-3 border">
+  <img src= <%= @file %> alt="gif">
+</div>
+<div class="d-flex justify-content-center m-3">
+  <%= link_to 'Pose une autre question !', ask_path, class: "link link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" %>
+</div>
